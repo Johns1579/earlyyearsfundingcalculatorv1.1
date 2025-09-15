@@ -98,7 +98,7 @@ export default function Calculator() {
     return (
       <div className="min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50">
+        <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50">
           {/* Background pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute inset-0" style={{
@@ -106,13 +106,13 @@ export default function Calculator() {
             }}></div>
           </div>
 
-          <div className="container mx-auto px-4 py-16">
+          <div className="container mx-auto px-4 py-12 md:py-20">
             <div className="max-w-6xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 
                 {/* Left Column - Content */}
-                <div className="space-y-8">
-                  <div className="space-y-6">
+                <div className="space-y-6">
+                  <div className="space-y-4">
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-sm border">
                       <div className="w-3 h-3 bg-primary rounded-full animate-pulse"></div>
                       <span className="text-lg font-bold text-gray-700">Funding Changes 24/25 → 25/26</span>
@@ -179,7 +179,7 @@ export default function Calculator() {
                   </div>
 
                   {/* Trust indicators */}
-                  <div className="pt-8 border-t border-gray-100">
+                  <div className="pt-6 border-t border-gray-100">
                     <div className="flex items-center gap-4 text-xs text-gray-400">
                       <span>✓ Secure & Private</span>
                       <span>✓ No Registration Required</span>

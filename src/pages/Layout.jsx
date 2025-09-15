@@ -182,7 +182,7 @@ export default function Layout({ children, currentPageName }) {
         {children}
       </main>
 
-      <footer className="bg-white border-t border-gray-200 py-8 mt-12">
+      <footer className="bg-white border-t border-gray-200 py-8">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <img
